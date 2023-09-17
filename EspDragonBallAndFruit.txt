@@ -1,0 +1,37 @@
+for i,v in pairs(game.Workspace:GetDescendants()) do -- grabs everything from workspace
+
+    if v.ClassName == 'TouchTransmitter' and v.Parent.Name == 'Handle' then -- checks if it has a handle and if its a touchtransmitter
+
+        local BillboardGui = Instance.new('BillboardGui') -- Makes Billboardgui
+
+        local TextLabel = Instance.new('TextLabel') -- makes text label
+
+        
+
+        BillboardGui.Parent = v.Parent -- what the billboardgui goes into
+
+        BillboardGui.AlwaysOnTop = true -- if its on top or not
+
+        BillboardGui.Size = UDim2.new(0, 50, 0, 50) -- size of it
+
+        BillboardGui.StudsOffset = Vector3.new(0,2,0)
+
+        
+
+        TextLabel.Parent = BillboardGui -- putting textlabel into billboardgui
+
+        TextLabel.BackgroundColor3 = Color3.new(1,1,1) -- color
+
+        TextLabel.BackgroundTransparency = 1 -- transparency
+
+        TextLabel.Size = UDim2.new(1, 0, 1, 0) -- size
+
+        TextLabel.Text = v.Parent.Parent.Name -- what the label says
+
+        TextLabel.TextColor3 = Color3.new(1, 0, 0) -- color
+
+        TextLabel.TextScaled = true -- if the text is scaled or not
+
+    end
+
+    end
