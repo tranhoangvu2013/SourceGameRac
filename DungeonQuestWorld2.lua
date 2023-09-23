@@ -14,13 +14,13 @@ end)
 page1:Toggle('Auto Attack And Skill',false,function(value)
 AutoAttackAndSkill = value
 end)
-page1:Toggle('Teleport Boss',false,function(value)
+page1:Toggle('Auto Teleport Boss',false,function(value)
 TeleportBoss = value
 end)
-page1:Toggle('Teleport Energy Source 1',false,function(value)
+page1:Toggle('Auto Teleport Energy Source 1',false,function(value)
 TeleportEnergySource1 = value
 end)
-page1:Toggle('Teleport Energy Source 2',false,function(value)
+page1:Toggle('Auto Teleport Energy Source 2',false,function(value)
 TeleportEnergySource2 = value
 end)
 local page1 = tab1:CraftPage('Misc',2)
