@@ -1,0 +1,137 @@
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame =
+    CFrame.new(
+    -494.813446,
+    9.29703808,
+    969.782166,
+    -0.995197535,
+    -1.6126295e-08,
+    0.0978873,
+    -1.10424256e-08,
+    1,
+    5.24776915e-08,
+    -0.0978873,
+    5.1144756e-08,
+    -0.995197535
+)
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame =
+    CFrame.new(
+    165.753464,
+    78.1179504,
+    842.739563,
+    -0.99982959,
+    -6.39174189e-08,
+    0.0184604246,
+    -6.40172289e-08,
+    1,
+    -4.81553508e-09,
+    -0.0184604246,
+    -5.9964993e-09,
+    -0.99982959
+)
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame =
+    CFrame.new(
+    366.606262,
+    75.243866,
+    873.375366,
+    0.755670309,
+    4.84729981e-08,
+    0.654952168,
+    -3.20620686e-08,
+    1,
+    -3.70174291e-08,
+    -0.654952168,
+    6.97385083e-09,
+    0.755670309
+)
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame =
+    CFrame.new(
+    -165.531967,
+    -23.9153481,
+    990.790405,
+    0.774558604,
+    0.199380457,
+    -0.600255311,
+    -0.000132476285,
+    0.949068129,
+    0.315070987,
+    0.632502139,
+    -0.243961409,
+    0.735135257
+)
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame =
+    CFrame.new(
+    -331.560913,
+    55.2514343,
+    906.556335,
+    -0.840622246,
+    -1.29134099e-08,
+    0.541621864,
+    -3.97504145e-08,
+    1,
+    -3.78523701e-08,
+    -0.541621864,
+    -5.33492397e-08,
+    -0.840622246
+)
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame =
+    CFrame.new(
+    -38.7040062,
+    32.417305,
+    1386.09631,
+    0.599066794,
+    3.91651689e-08,
+    -0.800699055,
+    -4.7015476e-08,
+    1,
+    1.37376936e-08,
+    0.800699055,
+    2.94154532e-08,
+    0.599066794
+)
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame =
+    CFrame.new(
+    928.747559,
+    107.19059,
+    942.22998,
+    0.984319985,
+    8.72438406e-08,
+    -0.176392227,
+    -9.29965154e-08,
+    1,
+    -2.43461926e-08,
+    0.176392227,
+    4.0368306e-08,
+    0.984319985
+)
+wait(3)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame =
+    CFrame.new(
+    -138.617233,
+    3.98647022,
+    875.463684,
+    0.998853505,
+    6.16343243e-08,
+    -0.0478708781,
+    -6.45188933e-08,
+    1,
+    -5.87121711e-08,
+    0.0478708781,
+    6.17334379e-08,
+    0.998853505
+)
+wait()
+game.StarterGui:SetCore(
+    "SendNotification",
+    {
+        Title = "System",
+        Text = "Enter Your Code!",
+        Icon = "rbxassetid://0000",
+        Duration = 100000
+    }
+)
