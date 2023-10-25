@@ -1,6 +1,6 @@
 repeat wait() until game:IsLoaded()
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/TranVanBao1411/StarXYZHub/main/OrionUi.lua')))()
-local Window = OrionLib:MakeWindow({Name = "Star XYZ Hub | Dungeon Quest", HidePremium = false, IntroText = "Star XYZ Hub | Community", Icon = "14765538999"})
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/TranVanBao1411/Library/main/OrionUi.lua')))()
+local Window = OrionLib:MakeWindow({Name = "Anbatukam Hub | Dungeon Quest", HidePremium = false, IntroText = "Anbatukam Hub | Community", Icon = "14765538999"})
 local MainTab = Window:MakeTab({
 	Name = "Main",
 	Icon = "rbxassetid://7040391851",
