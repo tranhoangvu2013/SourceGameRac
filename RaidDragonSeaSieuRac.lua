@@ -31,7 +31,7 @@ page2:Button('FlyGui',function()
 end)
 
 page2:Button('Low Mode',function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/crystalnerd/ScriptLinhTinh/main/BoostFPS"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/crystalnerd/ScriptLinhTinh/main/AntiLag2"))()
 end)
 
 local tab2 = Win:CraftTab('Comming Soon')
