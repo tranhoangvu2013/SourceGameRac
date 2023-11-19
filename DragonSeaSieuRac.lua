@@ -328,7 +328,7 @@ page1_2:Button('FlyGui',function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Reiji0001/Fly-Gui/main/Fly-Gui_Source"))()
 end)
 page1_2:Button('Low Mode',function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/crystalnerd/ScriptLinhTinh/main/BoostFPS"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/crystalnerd/ScriptLinhTinh/main/AntiLag2"))()
 end)
 
 local page2_2 = tab2:CraftPage('Stats',2)
