@@ -436,9 +436,6 @@ page1_3:Dropdown("Select NPC To Teleport",{"Combat NPC","Dark Blade NPC","Wooden
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(479.479065, 94.8633347, 693.720398, -0.994107902, -3.14160289e-08, 0.108395211, -2.75976735e-08, 1, 3.67263944e-08, -0.108395211, 3.35185426e-08, -0.994107902)
      end
 end)
-page1_3:Button('Teleport Island',function(value)
-    a = value
-end)
 
 local page1_4 = tab4:CraftPage('Raid',1)
 
