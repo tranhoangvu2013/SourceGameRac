@@ -351,7 +351,7 @@ end)
 
 local page1_3 = tab3:CraftPage('Teleport',1)
 
-page1_3:Dropdown("Select Island To Teleport",{"Start Island","Sand Island","Roshi Island","Snow Island","Pink Island","NameK Island","IDK Island","DontKnowThisIsland","Sky Island","Sky2 Island","Magma Island","Broly Island","Snuw Island","Secret House","Zamasu Island","Boss Broly Island","Sea Beast Island"},nil,function(teleport)
+page1_3:Dropdown("Select Island To Teleport",{"Start Island","Sand Island","Roshi Island","Snow Island","Pink Island","NameK Island","IDK Island","DontKnowThisIsland","Sky Island","Sky2 Island","Magma Island","Broly Island","Snuw Island","Secret House","Zamasu Island","Boss Broly Island","Sea Beast Island"},nil,function(a)
     if a == "Start Island" then
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(763.180908, 198.715561, 313.915527, 1, 0, 0, 0, 1, 0, 0, 0, 1)
     elseif a == "Sand Island" then
@@ -389,7 +389,7 @@ page1_3:Dropdown("Select Island To Teleport",{"Start Island","Sand Island","Rosh
     end
 end)
 
-page1_3:Dropdown("Select NPC To Teleport",{"Combat NPC","Dark Blade NPC","Wooden Sword NPC","Black Leg NPC","Speed Nimbus NPC","Random Race NPC","Dark Blade Awake NPC","Diamond Sword NPC","Flower Sword NPC","Dragon Ball NPC","Race V2 NPC","Electro NPC","Dragon Combat NPC","Dark Sword NPC","Devil Fruit NPC (Beli)","Devil Fruit NPC (Gem)","? NPC","Flame Sword NPC","Legendary Combat NPC","Awakening Fruit NPC","Mini Blade NPC","Lucky Random NPC (Ruby)"},nil,function(teleport)
+page1_3:Dropdown("Select NPC To Teleport",{"Combat NPC","Dark Blade NPC","Wooden Sword NPC","Black Leg NPC","Speed Nimbus NPC","Random Race NPC","Dark Blade Awake NPC","Diamond Sword NPC","Flower Sword NPC","Dragon Ball NPC","Race V2 NPC","Electro NPC","Dragon Combat NPC","Dark Sword NPC","Devil Fruit NPC (Beli)","Devil Fruit NPC (Gem)","? NPC","Flame Sword NPC","Legendary Combat NPC","Awakening Fruit NPC","Mini Blade NPC","Lucky Random NPC (Ruby)"},nil,function(a)
     if a == "Combat NPC" then
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(324.491699, 95.0442429, 640.770386, -1, 0, 0, 0, 1, 0, 0, 0, -1)
     elseif a == "Dark Blade NPC" then
