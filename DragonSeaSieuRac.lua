@@ -616,9 +616,10 @@ end)
 spawn(function()
     while wait() do
         if CC then
-            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-68.81217956542969, 138.3164520263672, 40.44826889038086)
+            
             pcall(function()
                 spawn(function()
+                    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-68.81217956542969, 138.3164520263672, 40.44826889038086)
                     game:GetService("RunService").Heartbeat:Connect(function()
                         if game:GetService("Players").LocalPlayer.Character:FindFirstChild("Humanoid") then
                             setfflag("HumanoidParallelRemoveNoPhysics", "False")
