@@ -239,6 +239,30 @@ function CheckQuest()
         Nume = 27
         QuestN = "Lv1650Quest"
         Num = 28
+    elseif Level == 1700 or Level <= 1749 then
+        Nume = 28
+        QuestN = "Lv1700Quest"
+        Num = 29
+    elseif Level == 1750 or Level <= 1799 then
+        Nume = 29
+        QuestN = "Lv1750Quest"
+        Num = 30
+    elseif Level == 1800 or Level <= 1849 then
+        Nume = 30
+        QuestN = "Lv1800Quest"
+        Num = 31
+    elseif Level == 1850 or Level <= 1899 then
+        Nume = 31
+        QuestN = "Lv1850Quest"
+        Num = 32
+    elseif Level == 1900 or Level <= 1949 then
+        Nume = 32
+        QuestN = "Lv1900Quest"
+        Num = 33
+    elseif Level == 1950 or Level <= 1999 then
+        Nume = 33
+        QuestN = "Lv1950Quest"
+        Num = 34
     end
 end
 CheckQuest()
@@ -349,7 +373,7 @@ page2_2:Toggle('Auto Stats (Devil Fruit)',false,function(value)
     DevilFruit = value
 end)
 
-local page1_3 = tab3:CraftPage('Teleport',1)
+local page1_3 = tab3:CraftPage('Teleport (Sea 1)',1)
 
 page1_3:Dropdown("Select Island To Teleport",{"Start Island","Sand Island","Roshi Island","Snow Island","Pink Island","NameK Island","IDK Island","DontKnowThisIsland","Sky Island","Sky2 Island","Magma Island","Broly Island","Snuw Island","Secret House","Zamasu Island","Boss Broly Island","Sea Beast Island"},nil,function(a)
     if a == "Start Island" then
