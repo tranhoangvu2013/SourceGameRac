@@ -284,7 +284,7 @@ page1:Toggle('Auto Farm Level',false,function(value)
     Farm = value
 end)
 
-page1:Toggle('Fast Attack (Only Map)',false,function(value)
+page1:Toggle('Fast Attack',false,function(value)
     CBLRaid = value
 end)
 
@@ -471,10 +471,6 @@ page1_4:Toggle('Auto Boss Raid (Use Fly)',false,function(value)
     CC = value
 end)
 
-page1_4:Toggle('Fast Attack (Only Raid)',false,function(value)
-    CBLRaid2 = value
-end)
-
 page1_4:Button('Teleport to Raid',function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2299.685791015625, 1035.02490234375, -2715.144775390625)
 end)
@@ -611,24 +607,6 @@ spawn(function()
                 }
                 if game:GetService("Players").LocalPlayer.Character[Vtool]:FindFirstChild("HackerSo1TheGioi") then
                     game:GetService("Players").LocalPlayer.Character[Vtool].HackerSo1TheGioi.RemoteEvent:FireServer(unpack(args))
-                elseif game:GetService("Players").LocalPlayer.Character[Vtool]:FindFirstChild("Attack") then
-                    game:GetService("Players").LocalPlayer.Character[Vtool].Attack.RemoteEvent:FireServer(unpack(args))
-                end
-            end) 
-        end
-    end
-end)
-
-spawn(function()
-    while wait(0.01) do
-        if CBLRaid2 then
-            pcall(function()
-                local args = {
-                    [1] = 1,
-                    [2] = game:GetService("Players").LocalPlayer
-                }
-                if game:GetService("Players").LocalPlayer.Character[Vtool]:FindFirstChild("HackerDepTreai") then
-                    game:GetService("Players").LocalPlayer.Character[Vtool].HackerDepTreai.RemoteEvent:FireServer(unpack(args))
                 elseif game:GetService("Players").LocalPlayer.Character[Vtool]:FindFirstChild("Attack") then
                     game:GetService("Players").LocalPlayer.Character[Vtool].Attack.RemoteEvent:FireServer(unpack(args))
                 end
