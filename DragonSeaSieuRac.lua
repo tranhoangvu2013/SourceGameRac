@@ -315,7 +315,7 @@ end)
 page1_2:Button('Grab Dragon Ball',function()
     pcall(function()
         for _,v in pairs(game.workspace:GetChildren()) do
-            if string.find(v.Name, "DB 1") or string.find(v.Name, "DB 2") or string.find(v.Name, "DB 3") or string.find(v.Name, "DB 4") or string.find(v.Name, "DB 5") or string.find(v.Name, "DB 6") or string.find(v.Name, "DB 7") then
+            if string.find(v.Name, "DB1") or string.find(v.Name, "DB2") or string.find(v.Name, "DB3") or string.find(v.Name, "DB4") or string.find(v.Name, "DB5") or string.find(v.Name, "DB6") or string.find(v.Name, "DB7") then
                 if v:IsA("Tool") then
                     v.Handle.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
                 end
